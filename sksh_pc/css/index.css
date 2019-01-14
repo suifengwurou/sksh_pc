@@ -1,0 +1,542 @@
+*{margin:0;padding:0;list-style-type:none;}
+body {
+    background-color: #fff;
+    margin: 0px;
+}
+
+.navBackground{
+    background-color: #fff;
+    border: none;
+    height: 66px;
+    padding: 0px 40px;
+}
+
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    border: none;
+}
+
+.navstyle li{
+    line-height: 66px;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: #222;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+    color: #D0AC67
+    ;
+    border-bottom: 3px #D0AC67 solid;
+}
+
+
+.main{
+    width: 100%;
+    height: auto;
+    
+}
+#bankcoin{
+    margin-top: 0px;
+}
+
+.gradient{
+    height: auto;
+}
+
+.backbox{
+    background-color:#fff;
+}
+
+.canvas-wraps{
+    position:relative;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    background: url(../img/bg.png) center center no-repeat;
+    background-color:#000;
+    background-size: cover;
+
+}
+.canvas-wraps h1{
+    font-size: 68px;
+    padding: 300px 0 0 0;
+    color: #000;
+}
+.canvas-wraps p{
+    font-size: 26px;
+    padding-bottom: 34px;
+    color: #000;
+}
+.about_us{
+    display: flex;
+    width: 90%;
+
+}
+.canvas-wraps a{
+  
+    margin-bottom: 160px;
+    padding: 12px 40px;
+    background-color: #222;
+    border: 1px #222 solid;
+    display: inline-block;
+    text-decoration: none;
+    color: #D0AC67;
+    font-size: 20px;
+}
+
+
+
+.canvas-wraps a:hover{
+    
+    margin-bottom: 160px;
+    padding: 12px 40px;
+    border: 1px #222 solid;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+.box2{
+    position: relative;
+    width: 100%;
+    height: auto;
+    font-weight: 200;
+    z-index: 99;
+    /* background-image: url(../img/slide5.png) !important;
+    background-size: ccover */
+}
+
+.intro{
+    position: absolute;
+    left: 15%;
+    bottom: 15%;
+}
+
+.box3{
+    position: relative;
+    z-index: 99;
+    background-color: #1A1E21;
+}
+
+/* .loader{
+    width: 100px;
+    margin: 0 auto;
+}
+
+.loader--audioWave {
+    width: 3em;
+    height: 2em;
+    background: linear-gradient(#9b59b6, #9b59b6) 0 50%, linear-gradient(#9b59b6, #9b59b6) 0.625em 50%, linear-gradient(#9b59b6, #9b59b6) 1.25em 50%, linear-gradient(#9b59b6, #9b59b6) 1.875em 50%, linear-gradient(#9b59b6, #9b59b6) 2.5em 50%;
+    background-repeat: no-repeat;
+    background-size: 0.5em 0.25em, 0.5em 0.25em, 0.5em 0.25em, 0.5em 0.25em, 0.5em 0.25em;
+    animation: audioWave 1.5s linear infinite;
+    margin-bottom: 40px;
+}
+@keyframes audioWave {
+    25% {
+        background: linear-gradient(#3498db, #3498db) 0 50%, linear-gradient(#9b59b6, #9b59b6) 0.625em 50%, linear-gradient(#9b59b6, #9b59b6) 1.25em 50%, linear-gradient(#9b59b6, #9b59b6) 1.875em 50%, linear-gradient(#9b59b6, #9b59b6) 2.5em 50%;
+        background-repeat: no-repeat;
+        background-size: 0.3em 2em, 0.5em 0.25em, 0.5em 0.25em, 0.5em 0.25em, 0.5em 0.25em;
+    }
+    37.5% {
+        background: linear-gradient(#9b59b6, #9b59b6) 0 50%, linear-gradient(#3498db, #3498db) 0.625em 50%, linear-gradient(#9b59b6, #9b59b6) 1.25em 50%, linear-gradient(#9b59b6, #9b59b6) 1.875em 50%, linear-gradient(#9b59b6, #9b59b6) 2.5em 50%;
+        background-repeat: no-repeat;
+        background-size: 0.5em 0.25em, 0.3em 2em, 0.5em 0.25em, 0.5em 0.25em, 0.5em 0.25em;
+    }
+    50% {
+        background: linear-gradient(#9b59b6, #9b59b6) 0 50%, linear-gradient(#9b59b6, #9b59b6) 0.625em 50%, linear-gradient(#3498db, #3498db) 1.25em 50%, linear-gradient(#9b59b6, #9b59b6) 1.875em 50%, linear-gradient(#9b59b6, #9b59b6) 2.5em 50%;
+        background-repeat: no-repeat;
+        background-size: 0.5em 0.25em, 0.5em 0.25em, 0.3em 2em, 0.5em 0.25em, 0.5em 0.25em;
+    }
+    62.5% {
+        background: linear-gradient(#9b59b6, #9b59b6) 0 50%, linear-gradient(#9b59b6, #9b59b6) 0.625em 50%, linear-gradient(#9b59b6, #9b59b6) 1.25em 50%, linear-gradient(#3498db, #3498db) 1.875em 50%, linear-gradient(#9b59b6, #9b59b6) 2.5em 50%;
+        background-repeat: no-repeat;
+        background-size: 0.5em 0.25em, 0.5em 0.25em, 0.5em 0.25em, 0.3em 2em, 0.5em 0.25em;
+    }
+    75% {
+        background: linear-gradient(#9b59b6, #9b59b6) 0 50%, linear-gradient(#9b59b6, #9b59b6) 0.625em 50%, linear-gradient(#9b59b6, #9b59b6) 1.25em 50%, linear-gradient(#9b59b6, #9b59b6) 1.875em 50%, linear-gradient(#3498db, #3498db) 2.5em 50%;
+        background-repeat: no-repeat;
+        background-size: 0.5em 0.25em, 0.5em 0.25em, 0.5em 0.25em, 0.5em 0.25em, 0.3em 2em;
+    }
+} */
+
+.box4{
+    padding: 110px 0px;
+    background-image: url(../img/box4-bg.png) !important;
+}
+.left-img{
+    text-align: center;
+    width: 50%;
+}
+.right-text{
+    color: #000;
+    width: 70%;
+}
+.right-text :first-child{
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.text img{
+    width: 32px;
+    margin: 10px 20px 0;
+}
+.wenzi h4{
+    font-size: 16px;
+    color: #1A1A1A;
+    font-weight: bold;
+}
+.wenzi p{
+    font-size: 14px;
+    color: #1A1A1A;
+}
+
+.itemList{
+    text-align: center;
+    margin: 20px 0 60px 0;
+}
+.itemList img{
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+}
+.itemList:hover img{
+    animation: spinDisc 3s linear;
+}
+
+.addAnimate {
+    transform: scale(0);
+}
+.fishBone .item .line-point{
+    z-index: 50;
+}
+.aniBox .addAnimate {
+    animation: scale 1s linear;
+    transform: scale(1);
+}
+
+.wow{
+    color: #222222;
+    padding: 60px 0px;
+}
+
+.wowFirst{
+    margin-bottom: 30px;
+}
+
+.wowmargin{
+    margin-bottom: 15px;
+}
+
+.wowTitle{
+    display: table-cell;
+    font-size: 48px;
+    line-height: 54px;
+    font-weight: 600;
+}
+
+.wowNextTitle{
+    display: table-cell !important;
+    padding-left: 20px;
+    vertical-align: middle;
+    line-height: 20px;
+    font-size: 18px;
+    color: #232323;
+}
+
+.width-90{
+    width: 90%;
+    color: #8F916F;
+}
+
+.markdiv{
+    color: #222222;
+    padding: 40px 0px;
+}
+
+.marktitle{
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 20px;
+}
+
+@keyframes scale{
+    0%{
+        transform: scale(0)
+    }
+    100%{
+        transform: scale(1)
+    }
+}
+
+@keyframes spinDisc {
+    50% {
+
+    }
+    100% {
+        transform: rotate(1turn);
+    }
+}
+
+
+.itemList h5:first-child{
+    font-size: 16px;
+    margin: 40px 10px;
+}
+.itemList h5:last-child{
+    padding: 30px 0px 0px 0px;
+    font-size: 14px;
+    color: #D0AC67;
+    margin-bottom: 15px;
+    font-weight: 200;
+}
+
+
+.svoDistributed .line{
+    width: 90%;
+    height: 2px;
+    background-image: linear-gradient(to right, #ff7000 0, #ff0000 100%);
+    margin-bottom: 20px;
+}
+
+.svoDistributed p:last-child{
+    font-size: 12px;
+    line-height: 24px;
+    color: #1a1a1a;
+}
+
+.box5{
+    text-align: center;
+    background-image: url("../img/x-bg.png");
+
+}
+
+
+.box5 img{
+    width: 128px;
+    display: inline-block;
+    padding: 18px 0 36px 0;
+}
+
+
+.box5 p{
+    font-size: 16px;
+    color: #222222;
+    font-weight: bold;
+}
+
+.people{
+    border-radius: 12px;
+    padding-bottom: 20px;
+    margin: 40px auto 80px auto;
+}
+.people .wenan{
+    top: 0;
+    left: 0;
+    font-size: 10px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.middle>ul>li{
+    margin-top: 50px;
+    text-align: -webkit-center;
+}
+.middle>ul>li:hover>.tanchuang{display:block;
+
+}
+.tanchuang{
+    background-color: #fff;
+    width: 132px;
+    position: absolute;
+    bottom: 40px;
+    right: -30px;
+    border-radius: 8px;
+    display: none;
+
+}
+.middle .tanchuang p{ 
+    padding: 16px 0;
+    line-height: 18px;
+    font-size: 12px;
+    color: #000;
+    margin: 0;
+}
+.tanchuang img{
+    width: 80px;
+    padding: 0 0 16px 0;
+}
+
+.box6 img{
+    width: 48px;
+    margin: 0 15px;
+}
+
+
+.box6 .lastP{
+    margin-top: 60px;
+    opacity: .6;
+}
+
+.middle .banquan{
+    margin-top:20px;
+    padding-bottom: 20px;
+    font-size: 12px;
+    color: #222222;
+    margin-bottom: 0px;
+}
+
+
+.box6 .phone a{
+    color: #ffffff;
+}
+@keyframes logofly
+{
+    0%{  top:800px;opacity: 0}
+    60%{top:50px;opacity: 1}
+    75%{top:100px;opacity: 1}
+    90%{top:65px;opacity: 1}
+    100%{top:80px;opacity: 1}
+}
+
+@-webkit-keyframes logofly
+{
+    0%{  top:800px; opacity: 0}
+    60%{top:50px;opacity: 1}
+    75%{top:100px;opacity: 1}
+    90%{top:65px;opacity: 1}
+    100%{top:80px;opacity: 1}
+}
+.box7{
+    padding: 60px 0px;
+    background-image: url(../img/box4-bg.png) !important;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.luxiantu{
+    font-size: 32px;
+    color: #fff;
+    text-align: center;
+    margin-top: 74px;
+    margin-bottom: 50px;
+}
+
+.biaoti{
+    font-size: 32px;
+    color: #222;
+    text-align: center;
+    margin-top: 74px;
+    margin-bottom: 50px;
+}
+.time{
+    background-image: url(../img/luxiantu.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.app{
+    background-color: #1A1E21;
+    background-image: url(../img/x-bg.png);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.app-logo{
+    padding: 154px 0 100px 0;
+}
+.xiazai{
+    width: 600px;
+    height: 280px;
+    margin: 0 auto;
+    color: #fff;
+}
+.xiazai img{
+    width: 136px;
+    padding-bottom: 20px;
+}
+.Android{
+    width: 50%;
+    float: left;
+    margin-bottom: 80px;
+    
+}
+.Android h5{
+    font-size: 18px;
+}
+.ios{
+    width: 50%;
+    float: left;
+    margin-bottom: 80px;
+
+}
+.ios h5{
+    font-size: 18px;
+}
+.app p{
+    padding-bottom: 220px;
+    color: #fff;
+    margin-bottom: 0px;
+}
+.jigou{
+    background-color: #1b1d1f;
+    overflow: hidden;
+    text-align: center;
+}
+
+.jigou .img{
+    text-align: center;
+    margin: 20px 0px 80px 0px;
+}
+
+.colorfff{
+    color: #fff;
+}
+
+.fishContent{
+    width: 100px;
+    text-align: left;
+}
+
+.fishContentInner{
+    color: #fff;
+    line-height: 20px;
+    font-size: 13px;
+
+}
+.fishTime{
+    color: #fff;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.fishTop{
+    position: absolute;
+    margin-top: -23px !important;
+}
+.fishTop2{
+     position: absolute;
+    margin-top: -46px !important;
+}
+
+.middle{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.swiper-slide>img{
+    width: 166px;
+}
+
+.text{
+    display: flex;
+}
+.footter{
+    text-align: center;
+    padding-bottom: 40px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
